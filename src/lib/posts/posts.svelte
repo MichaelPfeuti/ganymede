@@ -73,7 +73,7 @@
       {#if pageCurrent < pageCount - 1}
         <a href="/posts/{tagCurrent}/{pageCurrent + 1}">&lt&lt Older posts</a>
       {:else}
-        <div />
+        <div></div>
       {/if}
       {#if pageCurrent > 0}
         <a href="/posts/{tagCurrent}/{pageCurrent - 1}">Newer posts &gt &gt </a>
